@@ -97,7 +97,7 @@ body
     margin-right: 40px;
    
 }
-a:hover
+.bar-nav a:hover
 {
  
   border-top:3px solid #0065fc;   
@@ -112,39 +112,57 @@ p
 {
     font-size:14px;
 }
+
+
+
          /* les filtres*/
 
-.filter
+
+.filter  
 {
     display: flex;
-    margin-top:40px;
+    align-items: center;
+    margin-top:30px;
+    padding-right: 40px;
+  
 }
-    
-.filter H2
-{
-    font-size: 19px;
 
-}
-.bil-filter
-{
-    display: flex;
-    justify-content: center;
-    background-color: brown;
-    width:50px;
-    height: 50px;
 
+.filter div
+{   display: flex;
+    align-items: center;
+    border:2px solid #f2f2f2;
+    border-radius: 50px;
+    margin:5px;    
    
-}
-.child-filter
-{
-    display: flex;
-}
-.heart-filter
-{
-    display: flex;
 
+    
 }
-.dog-filter
+
+ .filter i
+
+
+{  
+     display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 37px;
+    height: 37px;
+    background-color:#DEEbff;
+    border-radius:60%;
+    color: #0065fc;
+   
+    
+   
+    
+}
+
+.filter h2
 {
-    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+
 }
