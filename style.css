@@ -36,6 +36,7 @@ body
 {
     margin-left: 40px;
 }
+/* header*/
 .title
 {
    display: flex;
@@ -48,9 +49,9 @@ body
 .logo-booki
 {
     width: 80px;
-    height: 50px;
+    height: 40px;
    margin-bottom: 10px;
- 
+   
    
    
 }
@@ -113,6 +114,75 @@ p
     font-size:14px;
 }
 
+/*barre de recherche*/
+
+.bar-search
+{    display: flex;
+    
+    align-items: center;
+    width: 400PX;
+    height: 40px;
+  
+}
+.bar-search i
+{  display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 42px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    background-color:#f2f2f2;
+   
+}
+
+.write-search
+
+{
+   padding-left:10px;
+   width: 50%;
+   height: 40px;
+   font-size:medium;
+   border:2.5px solid #f2f2f2;
+   border-right: none;
+   
+}
+input::placeholder
+{
+    color: black;
+    font-weight: bolder;
+}
+.button-search
+{   display: flex;
+    justify-content: CENTER;
+    align-items:center;
+    width: 27%;
+    height: 40px;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 0 10px 10px 0;
+    font-size: medium;
+    font-weight: 500;
+    border:none;
+    
+}
+
+/* infos sous filtre*/
+.infos-nav
+{
+    display: flex;
+    margin-top: 20px; 
+    
+}
+.infos-nav p
+{
+    padding-left:15px;
+}
+
+.infos-nav .fas
+{
+    color:#0065fc
+    
+}
 
 
          /* les filtres*/
@@ -139,7 +209,7 @@ p
     
 }
 
- .filter i
+.filter i
 
 
 {  
@@ -150,10 +220,7 @@ p
     height: 37px;
     background-color:#DEEbff;
     border-radius:60%;
-    color: #0065fc;
-   
-    
-   
+    color: #0065fc; 
     
 }
 
@@ -165,4 +232,58 @@ p
     margin-top: 10px;
     padding-right: 10px;
 
+}
+/*main */
+
+.total
+{
+    width: 2700px;
+    height: 1300px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #f2f2f2;
+    
+}
+.soustotal
+{    margin-top: 20px;
+     padding-top: 40px;
+    margin-left: 40px;
+}
+#title-marseille
+{
+    font-size :16px;
+    font-weight: bolder;
+
+
+}
+.house-marseille
+{
+    display:flex
+}
+.cannebiere
+{    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 230PX;
+    height: 180px;
+    background-color:WHITE;
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:2px 2px 2px  rgb(197, 195, 195);
+
+       
+}
+.cannebiere h3
+{
+    font-size:small;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.cannebiere img
+{
+    width: 223PX;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+    margin-left: 2px;
+    margin-top: 3px;
+    padding-left: 2px;
+    object-fit: cover;
 }
