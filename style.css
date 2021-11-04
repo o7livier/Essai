@@ -34,7 +34,12 @@ html body
 
 body 
 {
-    margin-left: 40px;
+    margin-left: 100px;
+}
+section
+{
+    display: flex;
+    
 }
 /* header*/
 .title
@@ -235,55 +240,429 @@ input::placeholder
 }
 /*main */
 
-.total
+.block-hebergement
 {
-    width: 2700px;
-    height: 1300px;
+    width: 800px;
+    height: 550px;
     border-radius: 10px 10px 10px 10px;
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; 
+    margin-top: 20px;
+    padding-top: 40px;
+    
+
     
 }
-.soustotal
-{    margin-top: 20px;
-     padding-top: 40px;
-    margin-left: 40px;
+.block-hebergement h3
+{
+    font-size:14px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom:2px;
+    padding-top: 5px;
 }
+
 #title-marseille
 {
-    font-size :16px;
+    font-size :19px;
     font-weight: bolder;
+    margin-left: 40px;
 
 
 }
 .house-marseille
 {
-    display:flex
+    display:flex;
+    justify-content: center;
 }
 .cannebiere
-{    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 230PX;
+{    
+    
+    width: 225PX;
     height: 180px;
     background-color:WHITE;
     border-radius:15px 15px 15px 15px ;
-    box-shadow:2px 2px 2px  rgb(197, 195, 195);
+    box-shadow:2px 2px 0.7px  rgb(197, 195, 195);
+    margin-top: 15px;
 
        
 }
-.cannebiere h3
-{
-    font-size:small;
-    font-weight: bold;
-    padding-left: 10px;
-}
 .cannebiere img
 {
-    width: 223PX;
+    width: 218PX;
     height: 100px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     margin-left: 2px;
-    margin-top: 3px;
-    padding-left: 2px;
+    margin-top: 4px;
+    padding-left: 3px;
     object-fit: cover;
+    
+}
+
+.cannebiere p
+{
+    padding-left: 10px; 
+    font-size: small;
+    margin-bottom:4px;
+}
+.etoile 
+{
+    padding-left:10px;
+   
+}
+ i
+{ 
+  color:#0065fc;
+  
+} 
+.etoile i:nth-of-type(5)
+{
+    color:GREY;
+    OPACITY:0.33;
+}
+.duport
+{    
+    
+    width: 225PX;
+    height: 180px;
+    background-color:WHITE;
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:2px 2px 0.7px  rgb(197, 195, 195);
+    margin-top: 15px;
+    margin-left: 30px;
+
+       
+}
+.duport img
+{
+    width: 218PX;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 2px;
+    margin-top: 4px;
+    padding-left: 3px;
+    object-fit: cover;
+    
+}
+.duport p
+{
+    padding-left: 10px; 
+    font-size: small;
+    margin-bottom: 2px;
+}
+.etoile-port
+
+{
+    padding-left: 10px;
+}
+.hotel-mouette
+{    
+    
+    width: 225PX;
+    height: 180px;
+    background-color:white;
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:2px 2px 0.7px  rgb(197, 195, 195);
+    margin-top: 15px;
+    margin-left: 30px;
+
+       
+}
+.hotel-mouette img
+{
+
+    width: 218PX;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 2px;
+    margin-top: 4px;
+    padding-left: 3px;
+    object-fit: cover;
+    
+
+}
+.hotel-mouette p
+{
+    padding-left: 10px; 
+    font-size: small;
+    margin-bottom: 2px;
+}
+   /* deuxieme etage */
+.housemarseille2
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.la-mer
+{    
+    
+    width: 225PX;
+    height: 180px;
+    background-color:WHITE;
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:2px 2px 0.7px  rgb(197, 195, 195);
+    margin-top: 30px;
+    
+   
+
+       
+}
+.la-mer img
+{
+    width: 218PX;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 2px;
+    margin-top: 4px;
+    padding-left: 3px;
+    object-fit: cover;
+    
+}
+.la-mer p
+{
+    padding-left: 10px; 
+    font-size: small;
+    margin-bottom: 2px;
+   
+    
+}
+.etoile-lamer i:nth-of-type(4)
+{
+    color:GREY;
+    OPACITY:0.33;
+}
+
+.etoile-lamer i:nth-of-type(5)
+{
+    color:GREY;
+    OPACITY:0.33;
+}
+.etoile-lamer
+
+{
+    padding-left: 10px;
+}
+.le-panier
+{    
+    
+    width: 225PX;
+    height: 180px;
+    background-color:WHITE;
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:2px 2px 0.7px  rgb(197, 195, 195);
+    margin-top: 30px;
+    margin-left: 30px;
+    
+   
+
+       
+}
+.le-panier img
+{
+    width: 218PX;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 2px;
+    margin-top: 4px;
+    padding-left: 3px;
+    object-fit: cover;
+    
+}
+.le-panier p
+{
+    padding-left: 10px; 
+    font-size: small;
+    margin-bottom: 2px;
+}
+.amina
+{    
+    
+    width: 225PX;
+    height: 180px;
+    background-color:white;
+    border-radius:15px 15px 15px 15px ;
+    box-shadow:2px 2px 0.7px  rgb(197, 195, 195);
+    margin-top: 30px;
+    margin-left: 30px;
+    
+   
+
+       
+}
+.amina img
+{
+    width: 218PX;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 2px;
+    margin-top: 4px;
+    padding-left: 3px;
+    object-fit: cover;
+    
+}
+.amina p
+{
+    padding-left: 10px; 
+    font-size: small;
+    margin-bottom: 2px;
+}
+h4
+{
+    font-size: medium;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.popular-house
+{
+   
+ 
+   
+   width: 400px;
+   height: 550px;
+   border-radius: 15px 15px 15px 15px;
+   background-color:#f2f2f2; 
+   margin-top: 20px;
+   padding-top: 40px;
+   margin-left: 30PX;
+}
+.most-popular
+{
+    display: flex;
+    justify-content:space-around;
+   
+    
+}
+.most-popular h2
+{
+    font-size: 19px;
+    font-weight: bolder;
+    margin-right: 35px;
+}
+.most-popular i
+{
+    color: black;
+    
+}
+/* CARTES LE SOLEIL*/
+.le-soleil
+{  display: flex;
+
+   
+  width: 320px;
+  height: 120px;
+  background-color: white;
+  border-radius:15px 15px 15px 15px;
+  margin-top: 15px;
+  margin-left: 40PX;
+}
+.le-soleil img
+{
+   width: 120px;
+   height: 115px;
+   object-fit: cover;
+   border-radius: 15px 0 0 15px;
+   margin-top: 3px;
+   padding-left: 2px;
+   padding-bottom: 2px;
+   margin-left: 2px;
+}
+.hotel-lesoleil
+{
+ margin-left: 10px;
+}
+.hotel-lesoleil h3
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+   
+  
+}
+/* CARTE AU COEUR*/
+.title-aucoeur
+{  
+
+  width: 320px;
+  height: 120px;
+  background-color: white;
+  border-radius:15px 15px 15px 15px;
+  margin-top: 40px;
+  margin-left: 40PX;
+
+}
+.coeur-deleau
+{
+    display: flex;
+}
+.coeur-deleau img
+{ 
+   width: 120px;
+   height: 115px;
+   object-fit: cover;
+   border-radius: 15px 0 0 15px;
+   margin-top: 3px;
+   padding-left: 2px;
+   padding-bottom: 2px;
+   margin-left: 2px;
+}
+.hotel-aucoeur
+{  
+ margin-left: 10px;
+}
+.hotel-aucoeur h3
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+   
+  
+}
+/* CARTE TOUT BLANC TOUT BLEU*/
+.title-toutbleu
+{  
+
+  width: 320px;
+  height: 120px;
+  background-color: white;
+  border-radius:15px 15px 15px 15px;
+  margin-top: 40px;
+  margin-left: 40PX;
+
+}
+.toutbleu
+{
+    display: flex;
+}
+
+.toutbleu img
+{ 
+   width: 120px;
+   height: 115px;
+   object-fit: cover;
+   border-radius: 15px 0 0 15px;
+   margin-top: 3px;
+   padding-left: 2px;
+   padding-bottom: 2px;
+   margin-left: 2px;
+}
+
+.hotel-toutbleu
+{  
+ margin-left: 10px;
+}
+
+.hotel-toutbleu h3
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 10px;
+   
+  
+}
+.hotel-toutbleu i:nth-of-type(5)
+{
+    color:grey;
+    opacity:0.33;
 }
