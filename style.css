@@ -68,6 +68,7 @@ section
     justify-content: flex-end;
     align-items: center;
     width:600px; 
+    margin-right: 110px;
    
 }
   
@@ -76,16 +77,15 @@ section
 .house-nav
 {
     display: flex;
-    justify-content: center;
+    justify-content: CENTER;
     align-items: center; 
     width: 140px;
-    height:90px;
-    margin-right: 40px;
+    height: 90px;
     color:black;
     text-decoration: none;
-    
   
- 
+    padding-right: 10px;
+    
   
    
 }
@@ -94,13 +94,15 @@ section
 .activity-nav
 {
     display: flex;
-    justify-content: center;
+    justify-content: CENTER;
     align-items: center;
     width: 140px;
-    height:90px;
+    height: 90px;
     color: black;
     text-decoration: none;
-    margin-right: 40px;
+   
+  
+
    
 }
 .bar-nav a:hover
@@ -514,11 +516,14 @@ h4
     margin-left: 40px;
 }
 
+
+
+/* partie cote les plus populaires*/
 .popular-house
 {
    
  
-   
+    
    width: 400px;
    height: 550px;
    border-radius: 15px 15px 15px 15px;
@@ -666,3 +671,4 @@ h4
     color:grey;
     opacity:0.33;
 }
+/* CARDS*/
