@@ -20,160 +20,95 @@
 
      /* Appareils avec une résolution de moins de 768px smartphone */   
 
-
-
+ @media screen and (max-width: 768px)
+ { }
+    
 
 
      
 
-
+                                      /* BODY */
 html body
 {
     font-family: "Raleway", sans-serif;
+   margin: 20PX;
+
 }
 
-body 
-{
-    margin-left: 100px;
+                                       /* HEADER */
+nav
+{ 
+  display: flex;
+  justify-content:space-between;
+ 
 }
-#marseille-house
-{
-    display: flex;
-    
+
+img
+{   
+    width:6%;
 }
-/* header*/
-.title
+
+
+ul
 {
    display: flex;
-   justify-content: space-between;
-   align-items: center; 
- 
-  
-     
+  justify-content: center;
+  align-items: center;
+  list-style: none;  
 }
-.logo-booki
+
+nav a
 {
-    width: 80px;
-    height: 40px;
-   margin-bottom: 10px;
-   
-   
-   
-}
-.bar-nav
-
-{  
-  
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width:600px; 
-    margin-right: 2px;
-   
-}
-  
-
-
-.house-nav
-{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: 140px;
-    height: 90px;
-    color:black;
+    margin-right: 100px;
     text-decoration: none;
-    padding-right: 10px; 
-   
+    color: BLACK;
 }
 
-
-.activity-nav
+nav a:hover
 {
-    display: flex;
-   
-    align-items: center;
-    width: 140px;
-    height: 90px;
-    color: black;
-    text-decoration: none;
-    padding-left: 100px;
-   
-   
-  
-
-   
-}
-.bar-nav a:hover
-{
- 
-  border-top:3px solid #0065fc;   
- 
-}
-.under-nav
-{
-    font-size: 19px;
-    font-weight: bolder;
+    color: #0065fc;
+    border-top: 4px solid #0065fc;
+    padding-top:25px;
 }
 
-p
-{
-    font-size:14px;
-}
+                                    /* TEXTE SOUS LE LOGO BOOKI*/
 
-/*barre de recherche*/
+ h1
+ {
+     font-size:17px;
+     font-weight: bolder;
+     margin-top: 15px;
+ }             
+ h1 + p
+ {
+     font-size: 14px;
+ }                      
 
-.bar-search
-{    display: flex;
-    
-    align-items: center;
-    width: 400PX;
-    height: 40px;
-  
-}
-.bar-search i
-{  display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 42px;
-    height: 40px;
-    border-radius: 10px 0 0 10px;
-    background-color:#f2f2f2;
-   
-}
+                                   /* BARRE DE RECHERCHE */
 
-.write-search
-
-{
-   padding-left:10px;
-   width: 50%;
-   height: 40px;
-   font-size:medium;
-   border:2.5px solid #f2f2f2;
-   border-right: none;
-   
-}
-input::placeholder
-{
-    color: black;
-    font-weight: bolder;
-}
-.button-search
-{   display: flex;
-    justify-content: CENTER;
-    align-items:center;
-    width: 27%;
-    height: 40px;
+.button-search 
+{   
+    color:white;
     background-color: #0065fc;
-    color: white;
     border-radius: 0 10px 10px 0;
-    font-size: medium;
-    font-weight: 500;
     border:none;
+    font-size: 16px;
     
 }
 
-/* infos sous filtre*/
+
+
+
+
+
+
+
+
+
+
+
+
+                                 /* ICONES ET TEXTE SOUS LES FILTRES*/
 .infos-nav
 {
     display: flex;
@@ -245,6 +180,11 @@ input::placeholder
     color:#103162;
 }
 /*main */
+#marseille-house
+{
+    display: flex;
+    
+}
 
 .block-hebergement
 {
